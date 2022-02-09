@@ -1,34 +1,6 @@
 # rotatingLoading.js
 An api that makes a loading icon rotate.
 # Usage:
-```
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-		<script src="script.js"></script>
-    <meta name="viewport" content="width=device-width">
-    <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-    <div id="square"></div>
-		<script>
-			const square = document.querySelector('div');
-			var x = false;
-			
-			setTimeout(
-				() => x=true,
-				10000
-			);
-			load(
-				square,
-				5,
-				() => x
-			).then(() => {
-				document.write('The page has loaded!');
-			});
-		</script>
-	</body>
-</html>
-```
+First link to the api
+<script src="https://gist.github.com/caleb1248/4a981c9cfa2e1e68c1e21aca42d18e86.js"></script>
 view an example [here](/example/)
