@@ -18,6 +18,6 @@ function load(element, speed, condition){
 				clearInterval(interval);
 				resolve();
 			}
-		},500)
-	});;
+		},500);
+	});
 }
