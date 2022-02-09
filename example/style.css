@@ -1,6 +1,11 @@
-div#square{
-	width:100px;
-	height:100px;
-	background-color: red;
-	margin: 40px;
+body{
+	background-color: darkblue;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+}
+div.main{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
